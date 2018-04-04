@@ -1,7 +1,7 @@
 ---
+title: Bright Skies
 layout: single
 author_profile: true
-excerpt: "Site"
 header:
     image: "/assets/images/sky5.jpg"
 ---
