@@ -1,11 +1,12 @@
 ---
-title: "Hello"
 layout: single
 author_profile: true
 excerpt: "Site"
 header:
     image: "/assets/images/sky5.jpg"
 ---
+
+## Hello
 
 My name is __Eric Guldbrand__, also __Ecen__. I study _computer science_ at Chalmer's University of Technology in Gothenburg but I am also an avid gamer and sci-fi/fantasy enthusiast.
 
