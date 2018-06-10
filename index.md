@@ -1,12 +1,10 @@
 ---
-title: 
+title: Greetings
 layout: single
 author_profile: true
 header:
     image: "/assets/images/sky5.jpg"
 ---
-
-## Greetings!
 
 I am __Eric Guldbrand__. Online I often go by __Ecen__. I study computer science at Chalmer's University of Technology in Gothenburg but I am also an avid gamer and sci-fi/fantasy enthusiast.
 
