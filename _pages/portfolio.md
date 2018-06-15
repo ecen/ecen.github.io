@@ -4,10 +4,10 @@ author_profile: true
 permalink: /portfolio/
 ---
 
-## [Dimensional Analysis and Modeling Library](unit/)
-This is a small Java library that makes it easier to work with variables modeling physical quantities. It does this by attaching physical quantities, units, to variables in order to perform dimensional analysis on your calculations. It will for instance stop you from doing `2 m + 2 kg`, but will allow you to do `2 m * 2 kg = 4 kg*m`. It is also easy to create entirely custom units, either from scratch or from some combination of other units. For convenience, many basic units are also pre-defined.
+## [Dimensional Analysis Library: Unit](unit/)
+This is a small Java library that makes it easier to work with variables modeling physical quantities. It does this by attaching physical quantities, units, to variables in order to perform dimensional analysis. It will stop you from doing undefined operations like `2 m + 2 kg`, but allow legal ones like `2 m * 2 kg = 4 kg*m`. It is also easy to define entirely custom units.
 
-Here's an example of how to create new units from old ones.
+Here are a few examples:
 ```java
 // 1 my = 3 m
 U myUnit = new U(U.M, 3, "my", "my unit");
@@ -19,9 +19,7 @@ U mySq = new U(U.M.pow(2), 2, "mySq", "my square");
 U myCu = new U(myUnit.mul(mySq), 1, "myCu", "my cubic");
 ```
 
-Read the entire javadoc at [ecen.github.io/unit](https://ecen.github.io/unit/).
-
-Find the latest release at [github.com/ecen/unit](https://github.com/ecen/unit/).
+Find this interesting? Read more about the [Dimensional Analysis Library: Unit](https://ecen.github.io/portfolio/unit/), read the [javadoc](https://ecen.github.io/unit/) or check out the [latest release](https://github.com/ecen/unit/).
 
 ## An Overview of Introductory Data Structures
 Having taken an introductory course on data structures in 2017 I decided to transcribe my notes into LaTeX before my exam. This proved useful the following year when a good friend of mine took the same course. I asked my friend if he would care to see if he found my notes useful and if so, if there was anything I had missed. There was and we decided to put some time in writing up and summarizing as much as we could of the course.
