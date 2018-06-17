@@ -27,3 +27,8 @@ Having taken an introductory course on data structures in 2017 I decided to tran
 This document aims to be a concise representation of an introductory course to data structures. It lists and explains many important concepts and data structures but doesn't delve into further theory, for which you should rather find a relevant book.
 
 The document will be available on this site in the near future.
+
+## A Concise Introduction to Concurrent Programming
+Concurrent programming can be an important skill for any programmer. Much literature unfortunately delves too deeply into theory to effectively convey the quite intuitive basic concepts to the beginner. In this document, I try to do just that.
+
+The document will be available on this site in the near future.
