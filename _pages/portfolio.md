@@ -22,9 +22,9 @@ U myCu = new U(myUnit.mul(mySq), 1, "myCu", "my cubic");
 Find this interesting? Read more about the [Dimensional Analysis Library: Unit](https://ecen.github.io/portfolio/unit/), read the [javadoc](https://ecen.github.io/unit/) or check out the [latest release](https://github.com/ecen/unit/).
 
 ## An Overview of Introductory Data Structures
-Having taken an introductory course on data structures in 2017 I decided to transcribe my notes into LaTeX before my exam. This proved useful the following year when a good friend of mine took the same course. I asked my friend if he would care to see if he found my notes useful and if so, if there was anything I had missed. There was and we decided to put some time in writing up and summarizing as much as we could of the course.
+When writing a program, there is a wide variety of commonly used data structures and algorithms available. This document is a brief introduction to data structures and can also serve as a reference for the different variants.
 
-This document aims to be a concise representation of an introductory course to data structures. It lists and explains many important concepts and data structures but doesn't delve into further theory, for which you should rather find a relevant book.
+Having taken an introductory course on data structures in 2017 I decided to transcribe my notes into LaTeX before my exam. This proved useful the following year when a good friend of mine took the same course. I asked my friend if he would care to see if he found my notes useful and if so, if there was anything I had missed. There was and we decided to put some time in writing up and summarizing as much as we could of the course.
 
 The document will be available on this site in the near future.
 
