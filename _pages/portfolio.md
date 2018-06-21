@@ -19,7 +19,7 @@ U mySq = new U(U.M.pow(2), 2, "mySq", "my square");
 U myCu = new U(myUnit.mul(mySq), 1, "myCu", "my cubic");
 ```
 
-Find this interesting? Read more about the [Dimensional Analysis Library: Unit](https://ecen.github.io/portfolio/unit/), read the [javadoc](https://ecen.github.io/unit/) or check out the [latest release](https://github.com/ecen/unit/).
+Find this interesting? [Read more](unit/), read the [javadoc](https://ecen.github.io/unit/) or check out the [latest release](https://github.com/ecen/unit/).
 
 ## An Overview of Introductory Data Structures
 When writing a program, there is a wide variety of commonly used data structures and algorithms available. This document is a brief introduction to data structures and can also serve as a reference for the different variants.
