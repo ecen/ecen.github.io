@@ -19,7 +19,7 @@ UV f = new UV(5, newton).add(new UV(3, newton));
 System.out.println(f); // Prints "8.00 kg * m / s^2".
 ```
 
-It is also possible to possible to properly define new units. If we wanted to define Newton as above, but give it a proper name, we can do like this:
+It is also possible define new units from scratch. If we wanted to define Newton as above, but give it a proper name, we can do like this:
 ```java
 U newton = new U(U.KG.mul(U.M).div(U.S.pow(2)), 1, "N", "Newton");
 UV f = new UV(5, newton).add(new UV(3, newton));
