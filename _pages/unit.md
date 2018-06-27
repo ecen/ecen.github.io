@@ -43,8 +43,8 @@ One thing to note is that the first 1 here is the absolute length that will be u
 
 
 ## Release and Documentation
-If you think this is something you would like to use, you can download the library from its git repo or read the full documentation.
+If you think this is something you would like to use, you can download the library from its git repo or read the full java documentation.
+
+Read the javadoc at [ecen.github.io/unit](https://ecen.github.io/unit/).
 
 Find the latest release at [github.com/ecen/unit](https://github.com/ecen/unit/).
-
-Read the entire javadoc at [ecen.github.io/unit](https://ecen.github.io/unit/).
