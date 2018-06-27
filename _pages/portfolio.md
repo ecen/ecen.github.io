@@ -5,18 +5,12 @@ permalink: /portfolio/
 ---
 
 ## [Dimensional Analysis Library: Unit](unit/)
-This is a small Java library that makes it easier to work with variables modeling physical quantities. It does this by attaching physical quantities, units, to variables in order to perform dimensional analysis. It will stop you from doing undefined operations like `2 m + 2 kg`, but allow legal ones like `2 m * 2 kg = 4 kg*m`. It is also easy to define entirely custom units.
+A small **Java library** that makes it easier to work with variables modeling physical quantities. It makes sure you only perform valid operations and it also allows you to define entirely custom units. Here is a small example:
 
-Here are a few examples:
 ```java
-// 1 my = 3 m
-U myUnit = new U(U.M, 3, "my", "my unit");
-
-// 1 mySq = 2 m^2
-U mySq = new U(U.M.pow(2), 2, "mySq", "my square");
-
-// 1 myCu = 1 my * 1 mySq = 3 m * 2 m^2 = 6 m^3
-U myCu = new U(myUnit.mul(mySq), 1, "myCu", "my cubic");
+U myUnit = new U(U.M, 3, "my", "my unit"); // 1 my = 3 meters
+UV x = new U(5, myUnit); // x = 5 my
+System.out.println(x.convert(U.YARD)); // Prints "16.40 yard"
 ```
 
 Find this interesting? [Read more](unit/), read the [javadoc](https://ecen.github.io/unit/) or check out the [latest release](https://github.com/ecen/unit/).
