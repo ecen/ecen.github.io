@@ -21,12 +21,10 @@ U myCu = new U(myUnit.mul(mySq), 1, "myCu", "my cubic");
 
 Find this interesting? [Read more](unit/), read the [javadoc](https://ecen.github.io/unit/) or check out the [latest release](https://github.com/ecen/unit/).
 
-## An Overview of Introductory Data Structures
-When writing a program, there is a wide variety of commonly used data structures and algorithms available. This document is a brief introduction to data structures and can also serve as a reference for the different variants.
+## [An Overview of Introductory Data Structures](/assets/docs/datastrukturer_sammanfattning.pdf)
+When writing a program, there is a wide variety of commonly used data structures and algorithms available. Having taken an introductory course to the subject, me and a friend decided to write a summary of it. The resulting document is **only available in swedish** and serves as a brief introduction to data structures. More specifically, it tries to concisely summarize the important points of the Chalmer's course *DAT037 Datastrukturer* as presented in 2017 and 2018.
 
-Having taken an introductory course on data structures in 2017 I decided to transcribe my notes into LaTeX before my exam. This proved useful the following year when a good friend of mine took the same course. I asked my friend if he would care to see if he found my notes useful and if so, if there was anything I had missed. There was and we decided to put some time in writing up and summarizing as much as we could of the course.
-
-The document will be available on this site in the near future.
+The document is [available here](/assets/docs/datastrukturer_sammanfattning.pdf).
 
 ## A Concise Introduction to Concurrent Programming
 Concurrent programming can be an important skill for any programmer. Much literature unfortunately delves too deeply into theory to effectively convey the quite intuitive basic concepts to the beginner. In this document, I try to do just that.
