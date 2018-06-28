@@ -24,3 +24,8 @@ A document summarizing the important points of *DAT037 Datastrukturer*, a Chalme
 Concurrent programming can be an important skill for any programmer. Much literature unfortunately delves too deeply into theory to effectively convey the quite intuitive basic concepts to the beginner. In this document, I try to do just that.
 
 The document will be available on this site in the near future.
+
+## Hardware and Software Optimization for Gaussian Elimination
+As part of the Chalmer's course *EDA332 Datorsystemteknik* me and a friend where tasked with writing and optimizing MIPS assembly code for performing matrix triangulation, the first part of Gaussian elimination. Our solution managed a second place in the course competition for creating the most efficient solution with an efficiency score of 554 µsC$.
+
+Checkout the [repository](https://github.com/ecen/eda332-computer-system-engineering) or read the [report](https://github.com/ecen/eda332-computer-system-engineering/blob/master/report/Optimizing_Hardware_and_Software_for_Gaussian_Elimination.pdf).
