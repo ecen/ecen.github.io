@@ -3,7 +3,7 @@ title: Welcome
 layout: single
 author_profile: true
 header:
-    image: "/assets/images/sky5.jpg"
+    image: "/assets/images/new-zealand-lake-mountains-road-2.jpg"
 ---
 
 ## Greetings!

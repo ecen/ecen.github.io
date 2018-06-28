@@ -24,7 +24,7 @@ url                      : "http://eric.guldbrand.io" # the base hostname & prot
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ecen/ecen.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-extra_credit             : Photo by Hans Guldbrand. # Extra credit (added to footer in addition to name.)
+extra_credit             : Photography by Hans Guldbrand and <a href="https://www.goodfreephotos.com/">Good Free Photos</a>. # Extra credit (added to footer in addition to name.)
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
