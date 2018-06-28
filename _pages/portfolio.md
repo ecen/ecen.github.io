@@ -5,7 +5,7 @@ permalink: /portfolio/
 ---
 
 ## [Dimensional Analysis Library: Unit](unit/)
-A small **Java library** that makes it easier to work with variables modeling physical quantities. It makes sure you only perform valid operations and it also allows you to define entirely custom units. Here is a small example:
+A small **Java library** that makes it easier to work with and **convert** variables with different units. It makes sure you only perform valid operations while also allowing you to define entirely custom units. Here is a small example:
 
 ```java
 U myUnit = new U(U.M, 3, "my", "my unit"); // 1 my = 3 meters
@@ -21,7 +21,7 @@ A document summarizing the important points of *DAT037 Datastrukturer*, a Chalme
 [Read more](/portfolio/data-structures/) about it or [download the pdf](/assets/docs/datastrukturer_sammanfattning.pdf).
 
 ## A Concise Introduction to Concurrent Programming
-Concurrent programming can be an important skill for any programmer. Much literature unfortunately delves too deeply into theory to effectively convey the quite intuitive basic concepts to the beginner. In this document, I try to do just that.
+Concurrent programming can be an important skill for any programmer. Unfortunately, much literature delves too deeply into theory to effectively convey the basic concepts to the beginner. With this document, I try to change that.
 
 The document will be available on this site in the near future.
 
