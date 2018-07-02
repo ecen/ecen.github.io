@@ -16,7 +16,7 @@ System.out.println(x.convert(U.YARD)); // Prints "16.40 yard"
 Find this interesting? [Read more](unit/), read the [javadoc](https://ecen.github.io/unit/) or check out the [latest release](https://github.com/ecen/unit/).
 
 ## [An Overview of Introductory Data Structures](/portfolio/data-structures/)
-A document summarizing the important points of *DAT037 Datastrukturer*, a Chalmer's introductory course to data structures. **Only available in swedish.**
+A document summarizing the important points of *DAT037 Datastrukturer*, a Chalmer's introductory course to data structures. **Only available in Swedish.**
 
 [Read more](/portfolio/data-structures/) about it or [download the pdf](/assets/docs/datastrukturer_sammanfattning.pdf).
 
