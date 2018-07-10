@@ -8,9 +8,9 @@ permalink: /portfolio/unit/
 This is a small Java library that makes it easier to work with variables modeling physical quantities. It does this by attaching physical quantities, units, to variables in order to perform dimensional analysis. It will stop you from doing undefined operations like `2 m + 2 kg`, but allow legal ones like `2 m * 2 kg = 4 kg*m`. It is also easy to define entirely custom units.
 
 ## Basic Usage
-There are mainly two classes that you will have to use. `U` defines a unit and `UV` defines a unit with a value. Both classes support similar arithmetic operations like `add`, `mul`, `div` and `pow`.
+There are mainly two classes that you will have to use, **U** and **UV** . `U` defines a unit and `UV` defines a unit with a value. Both classes support similar arithmetic operations like `add`, `mul`, `div` and `pow`. All operations returns a new `U` or `UV` object that represents the result of the operation, allowing operations to be chained.
 
-Here are two examples of these operations can be chained on existing units to create new ones. The pre-defined units `U.KG`, `U.M` and `U.S` represents kilograms, meters and seconds, respectively.
+Here are two examples of these operations showcasing operations on existing units and creating new ones. The pre-defined units `U.KG`, `U.M` and `U.S` represents kilograms, meters and seconds, respectively.
 ```java
 U newton = U.KG.mul(U.M).div(U.S.pow(2));
 System.out.println(newton); // Prints "kg * m / s^2".
