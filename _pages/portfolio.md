@@ -20,10 +20,10 @@ A document summarizing the important points of *DAT037 Datastrukturer*, a Chalme
 
 [Read more](/portfolio/data-structures/) about it or [download the pdf](/assets/docs/datastrukturer_sammanfattning.pdf).
 
-## A Concise Introduction to Concurrent Programming
-Concurrent programming can be an important skill for any programmer. Unfortunately, much literature delves too deeply into theory to effectively convey the basic concepts to the beginner. With this document, I try to change that.
+## A Primer to Concurrent Programming
+Concurrent programming is a useful skill for any programmer. Unfortunately, the subject is often presented with heavy theory in a way that makes the core concepts difficult to distinguish. This document aims to present some of the most important concepts and how they relate to concurrency, so that it is easier to understand and value the theory when you hear it.
 
-The document will be available on this site in the near future.
+Here you can download the [Primer to Concurrent Programming](/assets/docs/Primer_to_Concurrent_Programming.pdf) pdf.
 
 ## Hardware and Software Optimization for Gaussian Elimination
 As part of the Chalmer's course *EDA332 Datorsystemteknik* me and a friend where tasked with writing and optimizing MIPS assembly code for performing matrix triangulation, the first part of Gaussian elimination. Our solution managed a second place in the course competition for creating the most efficient solution with an efficiency score of 554 µsC$.

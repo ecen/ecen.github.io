@@ -1,10 +1,12 @@
 ---
-title: Welcome
+title:
 layout: single
 author_profile: true
 header:
     image: "/assets/images/new-zealand-lake-mountains-road-4.jpg"
 ---
+
+# Welcome
 
 ## Greetings!
 
