@@ -1,5 +1,4 @@
 ---
-title: 
 layout: single-front
 author_profile: true
 header:
