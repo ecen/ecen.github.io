@@ -13,11 +13,15 @@ $link-color: #0868a0 !default;
 $link-hover-color: #21adff !default; // Added by Ecen
 $masthead-link-color: #f5f5ff !default;
 $masthead-link-color-hover: #fff !default;
-$navicon-link-color-hover: #f00 !default;
+$navicon-link-color-hover: lighten($footer-background-color, 30%) !default;
 $nav-border-color-hover: #fff !default; // Added by Ecen
 
-.masthead, .site-title, .visible-links, .greedy-nav {
+.masthead, .site-title, .visible-links, .greedy-nav, .hidden-links {
   background: lighten($footer-background-color, 5%) !important;
+}
+
+.hidden-links {
+  border-color: lighten($footer-background-color, 5%) !important;
 }
 
 .page__footer {
