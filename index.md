@@ -6,7 +6,8 @@ header:
     image: "/assets/images/new-zealand-lake-mountains-road-4.jpg"
 ---
 
-## Greetings!
+# Greetings!
+---
 
 My name is __Eric Guldbrand__ but I often go by __Ecen__ online. I study computer science at Chalmer's University of Technology in Gothenburg but I am also an avid gamer and sci-fi/fantasy enthusiast.
 
