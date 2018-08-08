@@ -1,5 +1,5 @@
 ---
-title: "An Overview of Introductory Data Structures"
+title: "An Overview of Data Structures"
 author_profile: true
 permalink: /portfolio/data-structures/
 ---
