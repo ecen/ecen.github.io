@@ -1,4 +1,5 @@
 ---
+title: Eric Guldbrand
 layout: single-front
 author_profile: true
 header:
