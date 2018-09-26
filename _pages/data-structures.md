@@ -9,4 +9,4 @@ When writing a program, there is a wide variety of commonly used data structures
 
 The document is **only available in Swedish** and serves as a brief introduction to data structures. More specifically, it tries to concisely summarize the important points of the Chalmer's course *DAT037 Datastrukturer* as presented in 2017 and 2018.
 
-The document is [available here](/assets/docs/datastrukturer_sammanfattning.pdf).
+The document is available here [with hyperlinks](/assets/docs/datastrukturer_sammanfattning.pdf) or [for printing](/assets/docs/datastrukturer-print-version.pdf).
