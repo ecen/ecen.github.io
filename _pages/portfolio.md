@@ -21,7 +21,7 @@ Find this interesting? [Read more](unit/), read the [javadoc](https://ecen.githu
 
 A document summarizing the important points of *DAT037 Datastrukturer*, a Chalmer's introductory course to data structures. **Only available in Swedish.**
 
-[Read more](/portfolio/data-structures/) about it or download the pdf [with hyperlinks](/assets/docs/datastrukturer_sammanfattning.pdf) or [for printing](/assets/docs/datastrukturer-print-version.pdf).
+[Read more](/portfolio/data-structures/) about it or download the pdf [with hyperlinks](/assets/docs/datastrukturer_sammanfattning.pdf) or [for printing](/assets/docs/datastrukturer-printing-version.pdf).
 
 ## Primer to Concurrent Programming
 
