@@ -13,7 +13,7 @@ Here you can download my [Wonderdraft Asset Pack](/assets/docs/ecen_wonderdraft_
 
 ## Atlantean Empire, ca 11 000 BCE, alternate history
 
-[![Map of the Atlantean Empire](/assets/images/atlantis-9-1080p.jpg "Right click -> Open in new tab, to view in 4K")](/assets/images/atlantis-9.png "Map of the Atlantean Empire, 4K PNG"){:target="\_blank"}
+[![Map of the Atlantean Empire](/assets/images/atlantis-1080p.jpg "Right click -> Open in new tab, to view in 4K")](/assets/images/atlantis.png "Map of the Atlantean Empire, 4K PNG"){:target="\_blank"}
 (Right click -> Open in new tab, to view in 4K)
 
 ### Story
