@@ -2,6 +2,7 @@
 title: "Portfolio"
 author_profile: true
 permalink: /portfolio/
+toc: true
 ---
 
 ## [Dimensional Analysis Library: Unit](unit/)
