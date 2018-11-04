@@ -32,7 +32,7 @@ Locations on the map are placed near known locations of ancient civilizations or
 
 This was my first map with Wonderdraft and it was really fun, even though it doesn't handle this many symbols very well. I'm hoping for some performance optimizations or ability to "flatten" many symbols into one in the future. **As a developer I would definitely like to give a go at helping implement that**.
 
-The only additional external asset I've used is a remake of the Dot-and-Ring town marker that I made to allow setting different colors for the dot, ring and background glow. It can be downloaded from [my site](https://eric.guldbrand.io) along with it's `.kra` (Krita Project) file. The same goes for the map and it's `.wonderdraft_map` file, should anyone wish to use or modify it.
+I was sad that the Dot-and-Ring location marker in the Custom Colors category could only have one color so I recreated it using all three colors available for the custom colors rendering mode. My version can have a different color for the dot, ring and background glow. It is available in my [Wonderdraft Asset Pack](/assets/docs/wonderdraft-ecen.png).
 
 ### Disclaimer
 I was recently introduced to the Richat Structure Atlantis theory via some conspiracy theory (-isch) videos on YouTube. Thus I want to emphasize that all evidence for Atlantis being an advanced ancient civilization that we have somehow missed, is very weak. Very few arguments hold up beyond seeming plausible at first glance. It does make for some fun fantasy/alternate history settings though :)
