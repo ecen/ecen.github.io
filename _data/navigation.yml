@@ -8,13 +8,25 @@ main:
     url: /portfolio/
   - title: Personal
     url: /personal/
-  # - title: "Quick-Start Guide"
-  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+
+portfolio:
+  - title: "Dimensional Analysis Library: Unit"
+    url: /portfolio/unit/
+    children:
+      - title: "Read the javadoc"
+      - title: "Checkout the repository"
+  - title: "Data structures overview"
+    url: /portfolio/data-structures/
+    children:
+      - title: "Download with hyperlinks"
+      - title: "Download for printing"
+  - title: "Concurrent Programming"
+    children:
+      - title: "Download the primer as PDF"
+        url: /assets/docs/Primer_to_Concurrent_Programming.pdf
+  - title: "Gaussian Elimination"
+    children:
+      - title: "Checkout the repository"
+        url: https://github.com/ecen/eda332-gauss-elimination/
+      - title: "Read the report"
+        url: https://github.com/ecen/eda332-gauss-elimination/blob/master/report/Optimizing_Hardware_and_Software_for_Gaussian_Elimination.pdf

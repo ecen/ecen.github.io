@@ -20,7 +20,7 @@ title                    : "Eric Guldbrand"
 title_separator          : "|"
 name                     : "Eric Guldbrand"
 description              : "Résumé, portfolio and personal site of Eric Guldbrand, a computer science student, gamer and sci-fi/fantasy enthusiast. Here you can find out who I am and browse my personal side-projects: snippets, code and documents."
-url                      : "http://eric.guldbrand.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://eric.guldbrand.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ecen/ecen.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -109,7 +109,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : 
+  facebook         :
   foursquare       :
   github           : "ecen"
   gitlab           :
@@ -265,7 +265,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
