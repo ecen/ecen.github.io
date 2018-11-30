@@ -2,12 +2,12 @@
 main:
   - title: Home
     url: /
-  - title: Résumé
-    url: /resume/
   - title: Portfolio
     url: /portfolio/
   - title: Personal
     url: /personal/
+  - title: Blog
+    url: /blog/
 
 portfolio:
   - title: "Dimensional Analysis Library: Unit"
