@@ -12,7 +12,7 @@ toc: true
 Here you can download my [Wonderdraft Asset Pack](/assets/docs/ecen_wonderdraft_assets.zip). It currently contains very little but you can use it for any personal and commercial purposes in accordance with the included (CC-BY) license.
 
 ## March Across the Belts, Scandinavia 1658
-[![Map of the Atlantean Empire](/assets/images/roskilde-1080p.jpg "Right click -> Open in new tab, to view in 4K")](/assets/images/roskilde.png "March Across the Belts, Scandinavia 1658, 4K PNG"){:target="\_blank"}
+[![Map of the Atlantean Empire](/assets/images/march-across-the-belts-1080p.jpg "Right click -> Open in new tab, to view in 4K")](/assets/images/march-across-the-belts.png "March Across the Belts, Scandinavia 1658, 4K PNG"){:target="\_blank"}
 (Right click -> Open in new tab, to view in 4K)
 
 ### Background and process
