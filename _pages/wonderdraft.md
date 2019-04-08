@@ -56,4 +56,4 @@ One thing that Wonderdraft didn't allow for, was setting one color for the ring,
 The map itself is licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) so anyone who wish to use it may do so. If you do use it or build upon it in some way, I would be interested in seeing what you create! It is always fun to see new awesome things :)
 
 ### Disclaimer
-I was recently introduced to the Richat Structure Atlantis theory via some conspiracy theory (-isch) videos on YouTube. Thus I want to emphasize that all evidence for Atlantis being an advanced ancient civilization that we have somehow missed, is very weak. Very few arguments hold up beyond seeming plausible at first glance. It does make for some fun fantasy/alternate history settings though :)
+I was recently introduced to the Richat Structure Atlantis theory via some conspiracy theory (-isch) videos on YouTube. Thus I want to emphasize that all evidence for Atlantis being an advanced ancient civilization that we have somehow missed, are very weak. Very few arguments hold up beyond seeming plausible at first glance. It does make for some fun fantasy/alternate history settings though :)
