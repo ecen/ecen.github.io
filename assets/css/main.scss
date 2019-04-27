@@ -20,9 +20,9 @@ $total_animation_time: $time_per_slide * $slides;
 
 .slider{
   //margin:50px auto;
-  width: 800px;
-  height: 580px;
-  overflow:hidden;
+  width: 100%;
+  height: 400px;
+  //overflow:hidden;
   border:10px solid;
   border-top-color:#856036;
   border-left-color:#5d4426;
@@ -37,19 +37,22 @@ $total_animation_time: $time_per_slide * $slides;
   position: absolute;
   animation: round #{$total_animation_time}s infinite;
   opacity: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 @keyframes round {
    0% {
       opacity: 0;
    }
-   20% {
+   10% {
+      opacity: 1;
+   }
+   30% {
       opacity: 1;
    }
    40% {
-      opacity: 1;
-   }
-   60% {
       opacity: 0;
    }
 }
