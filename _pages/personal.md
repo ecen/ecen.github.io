@@ -13,3 +13,5 @@ I don't really make YouTube videos. Occasionally while playing games however, I 
 
 ## Minecraft Resource Pack: Lunaris
 [Lunaris](/assets/docs/Lunaris.zip) is a small resource pack I made for Minecraft. It makes the moon square (why would the Minecraft moon be round??) and changes the look of armour to look much more interesting.
+
+If you want this resource pack to be default on your server you may want to set the `resource-pack-sha1=` in your server.properties file to this pack's SHA1 which is `71C1A9AD830D36E93D5DE7B08CC9238866200DC4`. This allows clients to detect if the pack has been updated and re-download it. Note that this hash will update when the resource pack updates.
