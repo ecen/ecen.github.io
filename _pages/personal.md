@@ -29,15 +29,21 @@ I don't really make YouTube videos. Occasionally while playing games however, I 
 [Wonderdraft](https://www.wonderdraft.net) is a tool developed by Megasploot  for easily creating stylized fantasy maps. I've had some fun with this tool and I have put my work and some custom assets I've created [here](/wonderdraft/).
 
 ## Minecraft Resource Pack: Lunaris
-[Lunaris](/assets/docs/Lunaris.zip) is a small resource pack I made for Minecraft. It makes the moon square (why would the Minecraft moon be round??) and changes the look of armour to something more interesting.
+[Lunaris](/assets/projects/lunaris/Lunaris.zip) is a small resource pack I made for Minecraft. It makes the moon square (why would the Minecraft moon be round??) and changes the look of armour to something more interesting.
 
 <div class="slider">
-  <img class='photo'  src="/assets/images/lunaris/iron-compare.png" alt="" />
-  <img class='photo'  src="/assets/images/lunaris/gold-compare.png" alt="" />
-  <img class='photo'  src="/assets/images/lunaris/diamond-compare.png" alt="" />
-  <img class='photo'  src="/assets/images/lunaris/moon-compare.png" alt="" />
+  <img class='photo'  src="/assets/projects/lunaris/iron-compare.png" alt="" />
+  <img class='photo'  src="/assets/projects/lunaris/gold-compare.png" alt="" />
+  <img class='photo'  src="/assets/projects/lunaris/diamond-compare.png" alt="" />
+  <img class='photo'  src="/assets/projects/lunaris/moon-compare.png" alt="" />
 </div>
 
-The armours are designed to go particularly well with this [blue knight skin](/assets/images/lunaris/2018_12_06_blue-knight.png). I have not created that skin, and unfortunately I do not remember who the author is or were the original upload can be found. Reverse image search yields nothing, so I host it here for future reference.
+The armours are designed to go particularly well with this [blue knight skin](/assets/projects/lunaris/2018_12_06_blue-knight.png). I have not created that skin, and unfortunately I do not remember who the author is or were the original upload can be found. Reverse image search yields nothing, so I host it here for future reference.
 
-If you want this resource pack to be default on your server you may want to set the `resource-pack-sha1=` in your server.properties file to this pack's SHA1 which is `71C1A9AD830D36E93D5DE7B08CC9238866200DC4`. This allows clients to detect if the pack has been updated and re-download it. Note that this hash will update when the resource pack updates.
+### Use Lunaris on your Minecraft server
+If you want to you can set this resource pack to be the default on your server! In your `server.proprties` file, just set the following:
+```
+resource-pack=https://eric.guldbrand.io/assets/projects/lunaris/Lunaris.zip
+resource-pack-sha1=71C1A9AD830D36E93D5DE7B08CC9238866200DC4
+```
+The first is just a link to this resource pack. The second is the resource pack SHA1. It will be updated on this page when the resource pack is updated. You don't need to add it to your properties file, but doing so allows clients to detect if the pack has been updated and download the new version.
