@@ -44,7 +44,7 @@ $project-card-margin: 1ch;
 
    backface-visibility: hidden;
    transition: transform $highlight-time, box-shadow $highlight-time;
-   background-color: mix($secondary-color, $background-color, 70%);
+   background-color: $tertiary-color;
 }
 
 .project-card:hover {

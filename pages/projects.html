@@ -3,14 +3,15 @@ title: Projects
 layout: base-page
 permalink: /projects/
 ---
+{% assign sorted = site.projects | sort: 'title' %}
 
-<section class="projects-content">
+<article class="projects-content">
    <h1> Projects </h1>
-   <p> These are some of the projects I've worked on. The differ in scope, and many are just things I've done for personal use. Hopefully some of them will be useful or entertaining to you as well! </p>
+   <p> These are some of the projects I've worked on. They differ in scope, and many are just things I've done for personal use. Hopefully some of them will be useful or entertaining to you as well! </p>
    <br>
 
    <div class="projects-board">
-      {% for project in site.projects %}
+      {% for project in sorted %}
       <a href="{{ project.permalink }}" class="project-card">
          {% if project.thumbnail %}
          <img class="thumbnail" src="{{ project.thumbnail }}" />
@@ -23,4 +24,4 @@ permalink: /projects/
       {% endfor%}
 
    </div>
-</section>
+</article>

@@ -6,6 +6,7 @@ $background-color-code: #fafafa;
 
 $primary-color: #1f619e !default;
 $secondary-color: #f5f5ff;
+$tertiary-color: mix($secondary-color, $background-color, 80%);
 
 $text-dark: #222831 !default;
 $text-light: #f5f5ff !default;
