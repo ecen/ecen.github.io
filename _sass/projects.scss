@@ -1,0 +1,131 @@
+// PROJECTS
+
+$project-card-margin: 1ch;
+
+.projects-content {
+   margin: auto;
+   max-width: 120ch;
+   padding: 2ch;
+}
+
+//.project-header h1 {
+//   padding: $project-card-margin;
+//}
+
+.projects-board {
+   margin: auto;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-left: - $project-card-margin;
+   margin-right: - $project-card-margin;
+}
+
+.project-card {
+   border: 1px solid $border-color;
+   border-radius: 2px;
+   //min-width: 30ch;
+   //flex: 0 1 calc(30% - 1ch);
+   margin: $project-card-margin;
+   @media screen and (min-width: 400px) {
+      width: calc(90% - 2% - #{$project-card-margin});
+   }
+   @media screen and (min-width: 600px) {
+      width: calc(50% - 2% - #{$project-card-margin});
+   }
+   @media screen and (min-width: 900px) {
+      width: calc(33.3% - 2% - #{$project-card-margin});
+   }
+   box-shadow: 0px 0px 0px darken($background-color, 40%);
+   //position: relative;
+   z-index: 0;
+   overflow: hidden;
+
+   backface-visibility: hidden;
+   transition: transform $highlight-time, box-shadow $highlight-time;
+   background-color: mix($secondary-color, $background-color, 70%);
+}
+
+.project-card:hover {
+   //box-shadow: 3px 3px 4px darken($background-color, 40%);
+   //top: -10px;
+   z-index: 1;
+   transform: scale(1.048) translateY(-15px) translateX(0px);
+   box-shadow: 0px 10px 5px darken(mix($primary-color, $background-color, 10%), 30%);
+}
+
+.project-card .thumbnail {
+   max-width: 100%;
+   margin: 0;
+   margin-bottom: -1ch;
+   border-bottom: 1px solid $border-color;
+}
+
+.project-card .card-content {
+   padding: 1.5ch;
+   padding-top: 1ch;
+}
+
+.project-card h2 {
+   margin: 0;
+   padding: 0;
+}
+
+.back-bar {
+   //border-bottom: 1px solid saturate(darken($background-color, 20%), 10%);
+   margin-top: 0em;
+   margin-bottom: 0em;
+   padding: 0;
+   display: block;
+}
+
+.back-bar a {
+   background-color: $background-color;
+   box-shadow: 1px 1px 1px darken($background-color, 10%);
+   border: 1px solid saturate(darken($background-color, 20%), 10%);
+   border-radius: 2px;
+   color: $text-dark;
+   padding: 12px 20px 12px 10px;
+   margin-left: 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   position: relative;
+   z-index: 1;
+
+   backface-visibility: hidden;
+   transition: transform $highlight-time, box-shadow $highlight-time, background-color $highlight-time;
+}
+
+.back-bar a::before {
+   border: 1px solid saturate(darken($background-color, 20%), 10%);
+   border-radius: 2px;
+   border-top: 0;
+   border-right: 0;
+
+   content: "";
+   display: block;
+   background-color: $background-color;
+   position: absolute;
+   top: 0;
+   left: -12px;
+   width: 35px;
+   height: 35px;
+   z-index: -1;
+   transform: rotate(45deg) translateY(8px);
+
+   backface-visibility: hidden;
+   transition: transform $highlight-time, box-shadow $highlight-time, background-color $highlight-time;
+}
+
+.back-bar a:hover::before {
+   background-color: lighten($background-color, 2%);
+}
+
+.back-bar a:hover {
+   z-index: 1;
+   background-color: lighten($background-color, 2%);
+   transform: scale(1.01) translateY(-1px) translateX(-1px);
+   box-shadow: 1px 2px 3px darken(mix($primary-color, $background-color, 10%), 30%);
+}

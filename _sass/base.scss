@@ -1,0 +1,189 @@
+@import 'variables';
+
+/* colors */
+$background-color: #eeeeee !default;
+$background-color-code: #fafafa;
+
+$primary-color: #1f619e !default;
+$secondary-color: #f5f5ff;
+
+$text-dark: #222831 !default;
+$text-light: #f5f5ff !default;
+
+$link-dark: #0868a0 !default;
+
+$border-color: darken($primary-color, 20%);
+$highlight-color: #21adff !default;
+$highlight-time: 0.4s;
+
+// MAIN
+html {
+   height: 100%;
+}
+
+body {
+   background-color: $background-color;
+   font-family: $sans-serif;
+   min-width: 30ch;
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   margin: 0;
+   padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+   color: $text-dark;
+}
+
+p {
+   font-size: 0.95em;
+}
+
+hr {
+   border: 0.1px solid mix($background-color, $border-color, 90%);
+   line-height: 0.5;
+}
+
+.content {
+   margin-bottom: 2em;
+   line-height: 1.5;
+}
+
+.content p a {
+   color: $link-dark;
+   text-decoration: none;
+   flex: 1 0 auto;
+}
+
+.content img {
+   max-width: 100%;
+}
+
+.content p a:hover {
+   color: saturate(lighten($link-dark, 20%), 20%);
+}
+
+.page__hero {
+   //overflow: hidden;
+}
+
+.page__hero-image {
+   width: 100%;
+}
+
+.main-content {
+   margin: auto;
+   max-width: 80ch;
+   padding: 2ch;
+}
+
+.main-content h1 {
+   //margin-top: 0.5em;
+   //margin-bottom: -0.5em;
+}
+
+.main-content h2 {
+   margin-top: 0.5em;
+   margin-bottom: -0.5em;
+}
+
+blockquote {
+   font-style: italic;
+   border-left: 4px solid $primary-color;
+   padding-left: 2ch;
+   margin-left: 0;
+}
+
+.align-right { // For aligning images in markdown
+   width: 30%;
+   min-width: 100px;
+   margin-left: 2ch;
+   margin-top: 2ch;
+   margin-bottom: 2ch;
+   border: 1px solid $border-color;
+   float: right;
+}
+
+/* code */
+
+tt,
+code,
+kbd,
+samp,
+pre {
+  font-family: $monospace;
+}
+
+pre {
+  overflow-x: auto; /* add scrollbars to wide code blocks*/
+}
+
+p > code,
+a > code,
+li > code,
+figcaption > code,
+td > code {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  font-size: 1em;
+  background: $background-color-code;
+  border-radius: 2px;
+
+  &:before,
+  &:after {
+    letter-spacing: -0.2em;
+    content: "\00a0"; /* non-breaking space*/
+  }
+}
+
+// FOOTER
+footer {
+   background: saturate(darken($primary-color, 15%), 10%);
+   min-height: 7em;
+   //display: flex;
+   //justify-content: center; // X centering
+   //align-items: center; // Y centering
+   //margin-top: 2em;
+   margin-top: auto;
+}
+
+footer .copyright p {
+   color: $text-light;
+   font-size: 10px;
+   //text-align: center;
+}
+
+footer .social {
+   float: clear;
+   display: inline-block;
+}
+
+footer .social p {
+   color: $text-light;
+   font-size: 0.8em;
+   text-align: left;
+   float: left;
+   margin-bottom: 0;
+}
+
+footer .social-link {
+   margin-left: 2ch;
+   font-weight: bold;
+}
+
+footer a:hover {
+   text-decoration: underline;
+}
+
+@import 'navbar';
+@import 'projects';
+@import 'syntax';

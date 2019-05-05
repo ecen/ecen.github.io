@@ -1,0 +1,56 @@
+/* ==========================================================================
+   Ecen skin
+   ========================================================================== */
+
+.masthead, .site-title, .visible-links, .greedy-nav, .hidden-links {
+  background: lighten($footer-background-color, 5%) !important;
+  font-size: 18px;
+}
+
+.page__footer {
+  color: #fff !important; // override
+}
+
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}
+
+html {
+  @media (min-width: 48em) {
+    font-size: 15px !important;
+  }
+}
+
+.toc .nav__title {
+  font-size: 0.8em !important;
+}
+
+.toc__menu a {
+  font-size: 0.8em !important;
+}
+
+.sidebar {
+   font-size: 1.2em !important;
+}
+
+.nav__list .nav__items {
+   font-size: 1.4em !important;
+}
+
+/*body {
+  @media (min-width: 48em) {
+    margin-bottom: 0px !important;
+  }
+}*/
+
+a {
+  text-decoration: none;
+}
+.initial-content a:hover {
+  text-decoration: none !important;
+  color: $link-hover-color !important;
+}
+
+p a {
+  font-weight: 450;
+}

@@ -1,0 +1,26 @@
+---
+title: Projects
+layout: base-page
+permalink: /projects/
+---
+
+<section class="projects-content">
+   <h1> Projects </h1>
+   <p> These are some of the projects I've worked on. The differ in scope, and many are just things I've done for personal use. Hopefully some of them will be useful or entertaining to you as well! </p>
+   <br>
+
+   <div class="projects-board">
+      {% for project in site.projects %}
+      <a href="{{ project.permalink }}" class="project-card">
+         {% if project.thumbnail %}
+         <img class="thumbnail" src="{{ project.thumbnail }}" />
+         {% endif %}
+         <div class="card-content">
+            <h2>{{ project.title }}</h2>
+            <p> {{ project.intro }} </p>
+         </div>
+      </a>
+      {% endfor%}
+
+   </div>
+</section>
