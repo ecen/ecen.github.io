@@ -66,6 +66,8 @@ hr {
 
 .content img {
    max-width: 100%;
+   height: auto;
+   background-color: $primary-color;
 }
 
 .content p a:hover {
