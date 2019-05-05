@@ -94,9 +94,11 @@ hr {
    //margin-bottom: -0.5em;
 }
 
-.main-content h2 {
-   margin-top: 0.5em;
-   margin-bottom: -0.5em;
+.main-content {
+   h2, h3 {
+      margin-top: 0.5em;
+      margin-bottom: -0.5em;
+   }
 }
 
 blockquote {
