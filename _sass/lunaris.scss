@@ -11,9 +11,9 @@ $total_animation_time: $time_per_slide * $slides;
 
 .slider{
   //margin:50px auto;
-  width: 100%;
+  width: 90%;
   height: 400px;
-  //overflow:hidden;
+  overflow: hidden;
   border:10px solid;
   border-top-color:#856036;
   border-left-color:#5d4426;
@@ -23,6 +23,13 @@ $total_animation_time: $time_per_slide * $slides;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1em;
+
+  @media (min-width: 0px) {
+     height: 200px;
+  }
+  @media (min-width: 500px) {
+     height: 400px;
+  }
 }
 .slider .photo{
   position: absolute;
@@ -31,6 +38,7 @@ $total_animation_time: $time_per_slide * $slides;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  overflow: hidden;
 }
 
 @keyframes round {

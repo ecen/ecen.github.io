@@ -127,6 +127,11 @@ pre {
   overflow-x: auto; /* add scrollbars to wide code blocks*/
 }
 
+.highlighter-rouge {
+   width: 98%;
+   margin: auto;
+}
+
 p > code,
 a > code,
 li > code,
