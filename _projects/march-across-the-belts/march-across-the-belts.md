@@ -2,7 +2,7 @@
 title: "March Across the Belts"
 author_profile: true
 permalink: /march-across-the-belts/
-intro: Map over Denmark in 1658, depicting the Swedish march across the frozen belts to Kopenhagen, just before the Treaty of Roskilde.
+intro: " Map over Denmark in 1658, depicting the Swedish march across the frozen belts to Kopenhagen, just before the Treaty of Roskilde."
 thumbnail: /projects/march-across-the-belts/thumbnail.jpg
 ---
 
