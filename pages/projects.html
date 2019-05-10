@@ -18,7 +18,7 @@ permalink: /projects/
          {% endif %}
          <div class="card-content">
             <h2>{{ project.title }}</h2>
-            <p> {{ project.intro | markdownify }} </p>
+            <p> {{ project.description | markdownify }} </p>
          </div>
       </a>
       {% endfor%}

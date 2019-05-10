@@ -1,7 +1,10 @@
 ---
 title: "Concurrent Programming Primer"
 permalink: /concurrent/
-intro: Document presenting some of the most important concepts of concurrent programming to make it easier to understand the underlying theory.
+description: "An introduction of the most important concepts in concurrent programming. Intended to give a good basis for understanding further theory.
+
+
+Key concepts are illustrated using trains in the brilliant game Factorio."
 thumbnail: /projects/concurrent/critical_section.jpeg
 ---
 # Concurrent Programming Primer

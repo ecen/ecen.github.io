@@ -1,7 +1,10 @@
 ---
 title: "Gaussian Elimination"
 permalink: /gaussian-elimination/
-intro: MIPS assembly for matrix triangulation as part of a Chalmers course.
+description: "Matrix triangulation implementation in the MIPS assembly language. Written as part of a Chalmer's course and ranked as the second most efficient solution.
+
+
+Checkout the code repository or read the accompanying report."
 thumbnail: /projects/gaussian-elimination/thumbnail.png
 ---
 # Gaussian Elimination

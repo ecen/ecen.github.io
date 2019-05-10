@@ -1,5 +1,5 @@
 ---
-title: Eric Guldbrand
+title: Blog
 author_profile: true
 permalink: /blog/
 header:

@@ -1,7 +1,7 @@
 ---
 title: Lunaris
 permalink: /lunaris/
-intro: Resource pack for Minecraft that makes the moon square and changes the look of armour.
+description: "Resource pack for Minecraft that makes the moon square and adds more detail to armour."
 thumbnail: /projects/lunaris/iron-compare.png
 ---
 # Minecraft Resource Pack: Lunaris

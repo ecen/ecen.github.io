@@ -2,7 +2,7 @@
 title: "Atlantean Empire"
 author_profile: true
 permalink: /atlantean-empire/
-intro: Fictional map of the Atlantean Empire with Atlantis located on the Richat Structure in Africa in a time when sea levels were much higher than today.
+description: Fictional map of the Atlantean Empire with Atlantis located on the Richat Structure in Africa in a time when sea levels were much higher than today.
 thumbnail: /projects/atlantis/thumbnail.jpg
 ---
 

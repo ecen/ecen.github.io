@@ -3,7 +3,7 @@ title: "Data Structures Overview"
 author_profile: true
 permalink: /data-structures/
 redirect_from: /portfolio/data-structures/
-intro: "Overview of Data Structures equivalent to an entry level course on the subject.
+description: "An overview of data structures covering the same topics as an entry level course. Useful companion for any such course.
 
 
 __Only available in Swedish.__"
