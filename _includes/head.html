@@ -9,7 +9,11 @@
 <head>
    <meta charset="utf-8">
    <title>{{ page.title }}</title>
-   <meta name="description" content="{{ site.description }}">
+   {% if page.description %}
+   <meta name="description" content="{{ page.description | split:'.' | first }}.">
+   {% else %}
+   <meta name="description" content="{{ site.description | markdownify }}">
+   {% endif %}
    {% if author.name %}
    <meta name="author" content="{{ author.name | default: author }}">
    {% endif %}

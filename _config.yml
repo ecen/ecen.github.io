@@ -17,7 +17,7 @@ locale                   : "en-US"
 title                    : "Eric Guldbrand"
 title_separator          : "|"
 name                     : "Eric Guldbrand"
-description              : "Résumé, portfolio and personal site of Eric Guldbrand, a computer science student, gamer and sci-fi/fantasy enthusiast. Find out who I am and browse my personal side-projects: snippets, code and documents."
+description              : "Portfolio, blog and project repository of Eric Guldbrand, a computer science student, gamer and sci-fi/fantasy enthusiast."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://eric.guldbrand.io" # the base hostname & protocol for your site, e.g. http://example.com
 
