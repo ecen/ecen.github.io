@@ -38,10 +38,19 @@ _Commentary, criticism, parody, etc. is always allowed and can include small par
 This is intended to work the same way as current fair use policies do. However, consistently or carelessly preventing fair use must be heavily punished to hinder large companies and copyright trolls from bullying small creators.
 
 ### No Unpublishing
-_Creators do not have the right to unpublish their work. If a published work is repeatedly made unavailable, or made unavailable for a short time (1 year), idea and work protection are permanently removed._
+_Creators do not have the right to unpublish their work. If a published work is repeatedly made unavailable, or made unavailable for a short time (1 year), idea and work protection are permanently lifted._
 
 The idea is that no one is allowed to hold rights to anything just to prevent others from having it. It is also intended to prevent anti-consumer practices like the [Disney Vault](https://en.wikipedia.org/wiki/Disney_Vault).
 
-A work may also be counted as unavailable if its price is raised, or lowered dramatically in short periods, in such a way that the product might as well be unavailable for many consumers.
+This point does NOT apply when replacing a previous work with a slight alteration of it. If the new work is similar enough that Work Protection would prevent someone else from publishing it, it should be regarded as the same work.
 
-How quickly unpublishing is applied may vary between types of work. Availability for physical goods may be more forgiving than for digital, since the former must be crafted copy-by-copy. Hand-made physical goods may be given even more leeway.
+A work may be counted as unavailable if its price is raised, or dramatically lowered dramatically in short periods, in such a way that the product might as well be unavailable to many consumers for long periods of time.
+
+How quickly unpublishing is applied may vary between types of work. For instance, distribution of physical goods is much more demanding than for digital goods.
+
+### No Exclusivity
+_No third party may be granted an **exclusive** right to produce or publish a work._
+
+A creator may choose to only distribute their work via one channel or platform, but third parties may not propose deals or enter contracts with the creator intended to prevent other parties from distributing or publishing the work with permission of the creator.
+
+This protects consumers from the anti-consumer practice where distribution platforms may compete with each other by which selection they offer, rather than by how good the consumer's experience is.
