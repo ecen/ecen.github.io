@@ -45,12 +45,3 @@ The idea is that no one is allowed to hold rights to anything just to prevent ot
 A work may also be counted as unavailable if its price is raised, or lowered dramatically in short periods, in such a way that the product might as well be unavailable for many consumers.
 
 How quickly unpublishing is applied may vary between types of work. Availability for physical goods may be more forgiving than for digital, since the former must be crafted copy-by-copy. Hand-made physical goods may be given even more leeway.
-
-### No Exclusivity
-(While inherently good for the consumer, I reckon that no exclusivity is less important and might bring more difficulties than any other point. It is thus the least crucial.)
-
-_No third party may be granted an **exclusive** right to produce or publish a work. In addition, consumers must not be charged multiple times for digital goods on multiple platforms._
-
-A creator is not required to make their work available on more than one platform, but third parties may freely make the work available on other platforms as long as reasonable measures are taken to reimburse the creator with the same amount as they would receive for sales on the original platform. However, third parties must make reasonable effort to make sure that consumers are not charged multiple times for digital goods.
-
-Some examples of platform transversal include printing a digital book, digitizing a printed book, translating a text, porting a game to run on a different system, or selling a work on a different distribution platform or market.
