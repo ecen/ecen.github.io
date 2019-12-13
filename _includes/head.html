@@ -6,14 +6,15 @@
 {%- assign og_type = "website" -%}
 {%- endif -%}
 
+{% assign description = {{site.description}} %}
+{% if page.description %}
+{% assign description = {{page.description | markdownify | strip_html }} %}
+{% endif %}
+
 <head>
    <meta charset="utf-8">
    <title>{{ page.title }}</title>
-   {% if page.description %}
-   <meta name="description" content="{{ page.description | split:'.' | first }}.">
-   {% else %}
-   <meta name="description" content="{{ site.description | markdownify }}">
-   {% endif %}
+   <meta name="description" content="{{ description }}">
    {% if author.name %}
    <meta name="author" content="{{ author.name | default: author }}">
    {% endif %}
@@ -25,7 +26,13 @@
    <meta property="og:locale" content="{{ site.locale | replace: "-", "_" | default: "en_US" }}">
    <meta property="og:site_name" content="{{ site.title }}">
    <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
+   <meta property="og:description" content="{{ description }}">
    <meta property="og:url" content="{{ canonical_url }}">
+   {% if page.thumb %}
+   <meta property="og:image" content="{{ site.url }}{{ page.thumb }}" />
+   {% else %}
+   <meta property="og:image" content="{{ site.url }}/assets/images/20180331_eric_github.jpg" />
+   {% endif %}
    <link rel="canonical" href="{{ canonical_url }}">
 
    <link rel="stylesheet" type="text/css" href="/css/main.css">

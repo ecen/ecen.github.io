@@ -1,6 +1,7 @@
 ---
 title: A Proposition of Copyright Law
 date: 2019-12-13
+description: Current copyright law makes little sense. Here is my idea of how to fix that.
 ---
 
 Current copyright law makes little sense. Big companies and copyright trolls are free to bully small creators, and small creators don't have the resources to enforce their own claims. To accommodate a society were most people hold some copyright, this needs to change.
