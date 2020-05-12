@@ -1,6 +1,6 @@
 ---
 title: "MCTS in Two Player Snake"
-permalink: /sc2-bachelor/
+permalink: /two-player-snake/
 description: "Game playing system using Monte Carlo Tree Search to play a two-player snake game."
 thumbnail: /projects/two-player-snake/thumb.png
 ---
