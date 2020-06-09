@@ -7,6 +7,7 @@ thumbnail: /projects/atlantis/thumbnail.jpg
 ---
 
 # Atlantean Empire, ca 11 000 BCE, alternate history
+
 [![Map of the Atlantean Empire]({{ site.baseurl }}/projects/atlantis/atlantis-1080p.jpg "Right click -> Open in new tab, to view in 4K")](/projects/atlantis/atlantis.png "Map of the Atlantean Empire, 4K PNG")
 (Right click -> Open in new tab, to view in 4K)
 
