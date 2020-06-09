@@ -5,7 +5,11 @@ layout: base-page
 <div class="window win-single">
    <div>
       <h1 style="margin-bottom: 0;">{{ page.title }}</h1>
-      <p style="margin: 0;">{{ page.date | date_to_long_string }}, {{ page.author }}</p>
+      <p style="margin: 0;">{{ page.date | date_to_long_string }}
+         {% if page.author %}
+         , {{ page.author }}
+         {% endif %}
+      </p>
       <br>
       <p style="text-align: center;"><img src="{{ page.thumb }}"></p>
       {{ content }}

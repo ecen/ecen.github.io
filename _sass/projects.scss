@@ -5,7 +5,7 @@ $project-card-margin: 1ch;
 .projects-content {
    display              : grid;
    grid-template-columns: 100%;
-   grid-template-rows   : 120px auto;
+   grid-template-rows   : 150px auto;
    grid-row-gap         : $gap-size;
 }
 
@@ -33,6 +33,7 @@ $project-card-margin: 1ch;
 
 .project-card {
    max-width          : 40ch;
+   justify-self       : center;
 
    box-shadow         : 0 0 0 darken($background-color, 40%);
    z-index            : 0;
@@ -41,6 +42,7 @@ $project-card-margin: 1ch;
    backface-visibility: hidden;
    transition         : transform $highlight-time, box-shadow $highlight-time;
    background-color   : $background-color;
+   border             : 1px solid black;
 }
 
 .project-card:hover {

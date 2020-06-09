@@ -26,15 +26,11 @@ If you wish to contact me, e-mail is probably your best bet! You should be able 
 Data science student, gamer, hobby violinist, fantasy and sci-fi fan.
 
 <a href="mailto:{{site.author.email}}">
-   <i class="far fa-envelope">
-      EMAIL
-   </i>
+   <i class="far fa-envelope"></i> Email
 </a>
 
-<a href="mailto:{{site.author.email}}">
-   <i class="fab fa-github">
-      GITHUB
-   </i>
+<a href="https://github.com/{{site.author.github-name}}">
+   <i class="fab fa-github"></i> GitHub
 </a>
 
 </div>

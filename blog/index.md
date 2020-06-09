@@ -6,6 +6,10 @@ header:
     image: "/assets/images/new-zealand-lake-mountains-road-5-w1920px-q80.jpg"
 ---
 
-{% for post in site.posts%}
-  {% include blog-preview.html %}
-{% endfor %}
+<div class="blog-list win-wide-3">
+   {% for post in site.posts%}
+      <div class="window win-wide-2">
+         {% include blog-preview.html %}
+      </div>
+   {% endfor %}
+</div>
