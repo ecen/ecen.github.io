@@ -1,6 +1,11 @@
-<nav>
+<nav class="window win-primary">
    <nav class="inner-nav">
-      <a class="nav-item-left" href="/"> Eric Guldbrand </a>
+      <a class="nav-item-left" href="/">
+         {% if site.icon_dark %}
+         <img src="{{ site.icon_dark }}" />
+         {% endif %}
+         <p> {{ site.name }} </p>
+      </a>
       <a class="nav-item" href="/"> Home </a>
       <a class="nav-item" href="/projects/"> Projects </a>
       <a class="nav-item" href="/blog/"> Blog </a>

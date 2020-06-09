@@ -1,0 +1,15 @@
+.blog-list {
+   display  : grid;
+   gap      : $gap-size;
+
+   max-width: 80ch;
+
+   .window {
+      max-height: 20ch;
+   }
+}
+
+.blog-list-small {
+   grid-template-columns: 1fr;
+   grid-template-rows   : 40px repeat(auto-fit, minmax(50px, 1fr));
+}

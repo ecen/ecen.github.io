@@ -4,18 +4,18 @@
 {% include head.html %}
 
 <body>
+   {% include nav.html %}
 
    <div class="content">
-      {% include nav.html %}
 
-      {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-      {% include page__hero.html %}
-      {% endif %}
+      {{ content | markdownify }}
 
-      {{ content }}
    </div>
 
    {% include footer.html %}
+
+   <!-- This empty script tag prevents css animations on page load... :| -->
+   <script> </script>
 </body>
 
 </html>

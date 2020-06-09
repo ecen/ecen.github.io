@@ -14,7 +14,13 @@
 <head>
    <meta charset="utf-8">
    <title>{{ page.title }}</title>
+   {% if page.excerpt %}
+   <meta name="description" content="{{ page.excerpt | strip_html }}">
+   <meta property="og:description" content="{{ page.excerpt | strip_html }}">
+   {% else %}
    <meta name="description" content="{{ description }}">
+   <meta property="og:description" content="{{ description }}">
+   {% endif %}
    {% if author.name %}
    <meta name="author" content="{{ author.name | default: author }}">
    {% endif %}
@@ -26,12 +32,12 @@
    <meta property="og:locale" content="{{ site.locale | replace: "-", "_" | default: "en_US" }}">
    <meta property="og:site_name" content="{{ site.title }}">
    <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
-   <meta property="og:description" content="{{ description }}">
+
    <meta property="og:url" content="{{ canonical_url }}">
    {% if page.thumb %}
    <meta property="og:image" content="{{ site.url }}{{ page.thumb }}" />
    {% else %}
-   <meta property="og:image" content="{{ site.url }}/assets/images/20180331_eric_github.jpg" />
+   <meta property="og:image" content="{{ site.url }}/assets/images/codahedron-3-gold-light.png" />
    {% endif %}
    <link rel="canonical" href="{{ canonical_url }}">
 
@@ -40,7 +46,10 @@
    <meta name="theme-color" content="#fafafa">
 
    <link rel="manifest" href="site.webmanifest">
-   <link rel="apple-touch-icon" href="icon.png">
-   <link rel="icon" type="image/png" href="{{ site.baseurl }}/icon.png">
+   <link rel="apple-touch-icon" href="{{ site.icon_light }}">
+   <link rel="icon" type="image/svg" href="{{ site.icon_light }}">
    <!-- Place favicon.ico in the root directory -->
+
+   <!-- Fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;0,900;1,400&display=swap" rel="stylesheet">
 </head>

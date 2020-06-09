@@ -1,12 +1,11 @@
 ---
 title: "Eric Guldbrand"
 author_profile: true
-header:
-    image: "/assets/images/new-zealand-lake-mountains-road-5-w1920px-q80.jpg"
 ---
 
+<div class="main-content window win-big" markdown="1">
+
 # Greetings!
-![](/assets/images/20180331_eric_github-small.jpg){:.align-right}
 
 My name is __Eric Guldbrand__ and I've been studying **Computer Science and Engineering** at Chalmer's University of Technology since 2016. On top of that I am an avid gamer and sci-fi/fantasy enthusiast.
 
@@ -15,3 +14,27 @@ I am usually working on some project or another and this site is a central repos
 Some of my projects are educational in nature, owing in part to my recent work as a teaching assistant for a few Chalmer's courses. In particular, me and a friend wrote [a compendium](/portfolio/data-structures/) for one of our favourite courses. We were thus very happy to see it [recommended as complimentary literature](http://www.cse.chalmers.se/edu/year/2018/course/DAT037_Datastrukturer/resources.html) for the course in question.
 
 If you wish to contact me, e-mail is probably your best bet! You should be able to find up-to-date links in the page footer below!
+
+</div>
+
+<div class="window win-small" markdown="1">
+
+![](/assets/images/20180331_eric_github-small.jpg)
+
+<h4> Eric Guldbrand </h4>
+
+Data science student, gamer, hobby violinist, fantasy and sci-fi fan.
+
+<a href="mailto:{{site.author.email}}">
+   <i class="far fa-envelope">
+      EMAIL
+   </i>
+</a>
+
+<a href="mailto:{{site.author.email}}">
+   <i class="fab fa-github">
+      GITHUB
+   </i>
+</a>
+
+</div>
