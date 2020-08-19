@@ -49,8 +49,8 @@ $project-card-margin: 1ch;
    //box-shadow: 3px 3px 4px darken($background-color, 40%);
    //top: -10px;
    z-index   : 1;
-   transform : scale(1.048) translateY(-15px) translateX(0px);
-   box-shadow: 0 10px 5px darken(mix($primary-color, $background-color, 10%), 30%);
+   transform : scale(1.048) translateY(-5px) translateX(0px);
+   //box-shadow: 0 10px 5px darken(mix($primary-color, $background-color, 10%), 70%);
 }
 
 .project-card .thumbnail {

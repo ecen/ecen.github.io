@@ -7,13 +7,13 @@ author_profile: true
 
 # Greetings!
 
-My name is __Eric Guldbrand__ and I've been studying **Computer Science and Engineering** at Chalmer's University of Technology since 2016. On top of that I am an avid gamer and sci-fi/fantasy enthusiast.
+My name is __Eric Guldbrand__. I started studying **Computer Science and Engineering** at Chalmer's University of Technology in 2016 and I'm currently pursuing my master's degree in **Data Science and AI**. On top of that I am an avid gamer and sci-fi/fantasy enthusiast.
 
-I am usually working on some project or another and this site is a central repository for my work. Under [projects](/projects/) you can browse much of what I've done, both more serious work, as well as small personal projects. I also keep a  [blog](/blog/) for when I feel the need to publish my thoughts on some matter.
+I am usually working on some project or another and this site is primarily a hub for those. Under [projects](/projects/) you can browse much of what I've done, both more serious work, as well as small personal projects. Check it out and you can find everything from my Bachelor's Thesis on machine learning in StarCraft II, to a java library for dimensional analysis, to fantasy maps!
 
 Some of my projects are educational in nature, owing in part to my recent work as a teaching assistant for a few Chalmer's courses. In particular, me and a friend wrote [a compendium](/portfolio/data-structures/) for one of our favourite courses. We were thus very happy to see it [recommended as complimentary literature](http://www.cse.chalmers.se/edu/year/2018/course/DAT037_Datastrukturer/resources.html) for the course in question.
 
-If you wish to contact me, e-mail is probably your best bet! You should be able to find up-to-date links in the page footer below!
+If you wish to contact me, write me an [e-mail](mailto:{{site.author.email}})!
 
 </div>
 
