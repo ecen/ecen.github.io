@@ -1,7 +1,7 @@
 ---
 title: "Dimensional Analysis Library: Unit"
 author_profile: true
-permalink: /unit/
+permalink: /projects/unit/
 description: "Java library for performing dimensional analysis and working with variables modeling physical quantities. It is possible to define entirely custom units. Typing is enforced with java exceptions. Library correctness enforced by junit tests."
 thumbnail: /projects/unit/thumbnail.png
 ---
@@ -49,4 +49,4 @@ If you think this is something you would like to use, you can download the libra
 
 Read the [javadoc](https://ecen.github.io/unit/).
 
-Find the latest release at [github](https://github.com/ecen/unit/).
+Find the latest release on [github](https://github.com/ecen/dimensional-analysis/).
