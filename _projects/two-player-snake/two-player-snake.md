@@ -1,10 +1,10 @@
 ---
-title: "MCTS in Two Player Snake"
+title: "AI System for Two Player Snake"
 permalink: /two-player-snake/
 description: "Game playing system using Monte Carlo Tree Search to play a two-player snake game."
 thumbnail: /projects/two-player-snake/thumb.png
 ---
-# Bachelor's Thesis: Machine Learning in StarCraft II
+# Monte Carlo Tree Search for Two Player Snake
 
 {: style="text-align:center"}
 ![thumbnail](/projects/two-player-snake/thumb.png)
