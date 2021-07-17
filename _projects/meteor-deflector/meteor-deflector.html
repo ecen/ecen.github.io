@@ -1,0 +1,49 @@
+---
+title: "Deflector: Meteor Storm"
+permalink: /projects/meteor-deflector/
+description: "A game about defending a city from giant meteors by shooting at them. One of my first real ventures into JavaScript."
+thumbnail: /projects/meteor-deflector/thumb.png
+layout: none
+---
+{% include head.html %}
+{% include nav.html %}
+<div style="background-color: #fffc;">
+	<head>
+		<title>Deflector: Meteor Storm</title>
+		<!--<link rel="icon" type="image/png" href="../gfx/geec_icon.png" />-->
+		<link href="./game.css" type="text/css" rel="stylesheet">
+		<script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
+		<script src="https://code.createjs.com/tweenjs-0.6.2.min.js"></script>
+		<script src="https://code.createjs.com/soundjs-0.6.2.min.js"></script>
+		<script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+		
+		<script src="./game.js" type="text/javascript"></script>
+	</head>
+	<body onload="init()" onresize="resize()" style="min-width:1110px">
+		<div><canvas id="MainCanvas" width="300" height="300"></canvas></div>
+		<label class="game" for="TownHealth">Shield Health: </label>
+		<input id="HealthDisplay" class="game" type="number" readonly min=0 max=1000>
+		<label class="game" for="RadiusInput">Ammunition: </label>
+		<input id="AmmoDisplay" class="game" type="number" readonly min=0 max=100000>
+		<label class="game" for="Asteroids">Deflected Meteors: </label>
+		<input id="AsteroidsSeenDisplay" class="game" type="number" readonly min=0 max=100000>
+		<label class="game" for="useSemiAuto">Use Semi Auto</label>
+		<input type="checkbox" id="useSemiAuto" value="unit-in-group" />
+		<!--<label class="game" for="DensityInput">Density: </label>
+		<input id="DensityInput" class="game" onfocus="focusMe(this);" type="number" min=0.1 max=1000 step=20 autofocus="" value=5>
+		<p>Focus a box. <b>Scroll</b> to change value. Hold <b>Shift</b> to change faster. Hold <b>Control</b> to change slower. Then <b>click</b> on the canvas above to spawn a ball. Then click several more times to spawn more balls!</p>
+		<label class="game" for="SpeedInput">X Speed: </label>
+		<input id="SpeedInputX" class="game" onfocus="focusMe(this);" type="number" min=-4000 max=4000 step=500 autofocus="" value=5>
+		<label class="game" for="SpeedInput" style="margin-left: 20px"> Y Speed: </label>
+		<input id="SpeedInputY" class="game" onfocus="focusMe(this);" type="number" min=-4000 max=4000 step=500 autofocus="" value=5>
+		<input class="game" type="button" onclick="reset();" value="Reset" >-->
+		<h2>Defend your city!</h2>
+		<p>Hold <b>shift</b> to activate super cannons! (Uses 5 ammo per shot!) 
+		<br>Hold <b>control</b> to activate mega cannons! (Uses 40 ammo per shot!)
+		<br>You gain 1 ammo per second, but much more if you can manage to land the meteors on the grassy plains next to your city!
+		<br>The darker a meteor is, the more dense (and more difficult to deflect) it is! It also gains you more ammo if you land it!</p>
+		
+	</body>
+	
+</html>
