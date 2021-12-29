@@ -13,6 +13,6 @@ As part of the Chalmer's course *TIN175 Introduction to Artificial intelligence*
 
 When run on the group photo of the 1927 Solvay Conference, the result can be seen in the image above. The agent we trained often mistakes ties for faces, but otherwise works quite well. More details can be found in the report.
 
-[Read the report]([short report](/projects/face-detection/face-detection-report.pdf))
+[Read the report](/projects/face-detection/face-detection-report.pdf)
 
 [Checkout on GitHub](https://github.com/ecen/vj-face-detection)
