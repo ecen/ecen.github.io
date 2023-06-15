@@ -19,7 +19,7 @@ The armours are designed to go particularly well with this [blue knight skin](/p
 ### Lunaris on your Minecraft server
 If you want to you can set this resource pack to be the default on your server! In your `server.proprties` file, just set the following:
 ```
-resource-pack=https://eric.guldbrand.io/projects/lunaris/Lunaris.zip
-resource-pack-sha1=79DCD706F36DC9F94074E808F3655BFE1FC3EC2E
+resource-pack=https://eric.guldbrand.io/projects/lunaris/Lunaris-19.zip
+resource-pack-sha1=75B963A3CEE5947416DCD002D7FBE22F86583F00
 ```
 The first is just a link to this resource pack. The second is the resource pack SHA1. It will be updated on this page when the resource pack is updated. You don't need to add it to your properties file, but doing so allows clients to detect if the pack has been updated and download the new version.
